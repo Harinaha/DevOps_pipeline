@@ -1,0 +1,34 @@
+<project>
+    <!-- Other project configurations -->
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.python</groupId>
+                <artifactId>python-maven-plugin</artifactId>
+                <version>0.1.0</version>
+                <executions>
+                    <execution>
+                        <id>install-dependencies</id>
+                        <goals>
+                            <goal>install-dependencies</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <!-- Java dependencies -->
+    </dependencies>
+
+    <pythonDependencies>
+        <dependency>
+            <groupId>somegroup</groupId>
+            <artifactId>some-python-package</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!-- Other Python dependencies -->
+    </pythonDependencies>
+</project>
