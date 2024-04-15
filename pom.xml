@@ -25,10 +25,14 @@
 
     <pythonDependencies>
         <dependency>
-            <groupId>somegroup</groupId>
-            <artifactId>some-python-package</artifactId>
-            <version>1.0.0</version>
+            <groupId>django</groupId>
+            <artifactId>django</artifactId>
+            <version>4.0.0</version>
         </dependency>
-        <!-- Other Python dependencies -->
+        <dependency>
+            <groupId>mvn</groupId>
+            <artifactId>mvn</artifactId>
+            <version>0.0.1</version>
+        </dependency>
     </pythonDependencies>
 </project>
