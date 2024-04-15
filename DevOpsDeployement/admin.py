@@ -5,5 +5,4 @@ from DevOpsDeployement.models import DevOpsStudents
 class DevOpsAdmin(admin.ModelAdmin):
     pass
 
-
 admin.site.register(DevOpsStudents, DevOpsAdmin)
